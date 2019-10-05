@@ -1,0 +1,56 @@
+.logo {
+    color: whitesmoke;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.source-scrape {
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 15px;
+}
+
+.banner {
+    background-image: url("https://i.imgur.com/2z6hTkN.jpg");
+
+    min-height: 600px; 
+
+    background-attachment: fixed;
+    background-position: unset;
+    background-repeat: no-repeat;
+    background-size: auto;
+
+    color: white;
+    font-size: 50px;
+}
+
+.mainContent {
+    background: #272a33;
+    border: 1px solid black;
+}
+
+.cardBox {
+    background: grey;
+    margin: 20px;
+    border: 2px solid black;
+}
+
+.card {
+    margin: 10px;
+    display: list-item;
+    padding: 10px;  
+    border: 2px solid #272a33;
+
+    text-align: center;
+}
+
+.card-img-border {
+    border: 2px solid #272a33;
+    border-radius: 5px;
+}
+
+.navbar {
+    background: #272a33;
+    border-bottom: 1px solid black;
+}

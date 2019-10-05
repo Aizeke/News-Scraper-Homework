@@ -1,0 +1,25 @@
+<div class="row mainContent justify-content-center">
+    <div class="cardBox col-md-10 card-columns">
+
+        <div id="dynamicCard">
+            {{#each dbArticle}}
+            <div class="card" style="max-width: 540px;">
+                <div class="row no-gutters">
+                    <div class="col-md-4">
+                        <img src="{{dbArticle.img}}"
+                            class="card-img card-img-border" alt="{{dbArticle.title}}">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <h5 class="card-title">{{dbArticle.title}}</h5>
+                            <p class="card-text">{{dbArticle.synopsis}}</p>
+                            <p class="card-text"><small class="text-muted">{{dbArticle.releaseDate}}</small></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            {{/each}}
+        </div>
+
+    </div>
+</div>
