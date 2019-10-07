@@ -24,8 +24,8 @@ app.use(express.static("public"));
 mongoose.connect(MONGODB_URI, { useNewUrlParser: true });
 
 // Handlebars
-app.engine("handlebars", exphbs({ defaultLayout: "main" }));
-app.set("view engine", "handlebars");
+// app.engine("handlebars", exphbs({ defaultLayout: "main" }));
+// app.set("view engine", "handlebars");
 
 
 // Routes
@@ -60,7 +60,6 @@ app.get("/scrape", (req, res) => {
             // Save the text and href of each link enclosed in the current element
             const results = {}
             // console.log(element.children.children.img);
-            console.log("===========================================")
 
             results.title = $(this).children("h3").text();
 
